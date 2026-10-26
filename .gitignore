@@ -1,0 +1,35 @@
+# Generated builds and local dependencies
+/build/
+/dist/
+/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Private audio, models, credentials and runtime state
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aif
+*.aiff
+*.ogg
+*.pth
+*.ckpt
+*.bin
+*.index
+*.onnx
+*.safetensors
+*.dmg
+*.zip
+*.p12
+*.p8
+*.key
+*.pem
+.env*
+session.json
+settings.json
+/voices/
+/recordings/
+/backups/
+/reset-backups/
+/GITHUB-HANDOFF.json
